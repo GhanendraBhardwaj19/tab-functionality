@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="querySelectors.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="data-box">
+      <div class="btns">
+        <div class="btn active" onclick="display('box-1')">firstBtn</div>
+        <div class="btn" onclick="display('box-2')">secondBtn</div>
+        <div class="btn" onclick="display('box-3')">thirdBtn</div>
+      </div>
+
+      <div class="content">
+        <div id="box-1" class="content-box active">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci,
+          perspiciatis eius! Illum nemo quo voluptates accusantium aspernatur
+          nihil quidem minima pariatur. Laboriosam ratione natus ipsum ipsa
+          excepturi possimus consequatur sit voluptas! Magnam aperiam quis,
+          asperiores omnis, autem provident aliquam unde ipsa iste, quas harum
+          eligendi? <br />
+          firstBtn
+        </div>
+        <div id="box-2" class="content-box">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci,
+          perspiciatis eius! Illum nemo quo voluptates accusantium aspernatur
+
+          <br />
+          secondBtn
+        </div>
+        <div id="box-3" class="content-box">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci,
+          perspiciatis eius! Illum nemo quo voluptates accusantium aspernatur
+          nihil quidem minima pariatur. Laboriosam ratione natus ipsum ipsa
+          excepturi possimus consequatur sit voluptas! Magnam aperiam quis,
+          <br />
+          thirdBtn
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="querySelectors.js"></script>
+</html>
